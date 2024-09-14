@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    {% if not url_for('static', filename='styles.css') %}
+        <p>Error loading static file: styles.css</p>
+    {% endif %}
     <title>{% block title %}Мой Дневник{% endblock %}</title>
 </head>
 <body>

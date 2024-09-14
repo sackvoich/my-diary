@@ -7,7 +7,7 @@ body {
 
 header {
     background: #333;
-    color: #fff;
+    color: #ee2e2e;
     padding: 10px 0;
 }
 
@@ -48,3 +48,4 @@ textarea {
     width: 100%;
     padding: 10px;
 }
+
